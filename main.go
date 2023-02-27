@@ -7,5 +7,6 @@ import (
 func main() {
 	http.HandleFunc("/time", Handler)
 	http.HandleFunc("/time", Handler)
+	http.HandleFunc("/time", Handler)
 	http.ListenAndServe(":8795", nil)
 }
